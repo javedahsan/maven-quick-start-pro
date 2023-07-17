@@ -20,18 +20,17 @@ public class Application {
 	}			
 		
 		
-    public Application() {
+    public void Application() {
         System.out.println ("Inside Application");
     }
 
     // method main(): ALWAYS the APPLICATION entry point
     public static void main (String[] args) {
     	System.out.println ("Starting Application");
-	Application app = new Application();
-	app.greet();
+	    Application app = new Application();
+	    app.greet();
 	
-	int count = app.countWords("I have four words");
-    System.out.println ("words counts: " + count);
-
+	    int countx = app.countWords("I have four words");
+        System.out.println ("words counts: " + countx);
 	}
 }
