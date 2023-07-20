@@ -20,7 +20,7 @@ public class Application {
 	}			
 		
 		
-    public void Application() {
+    public Application() {
         System.out.println ("Inside Application");
     }
 
@@ -30,7 +30,7 @@ public class Application {
 	    Application app = new Application();
 	    app.greet();
 	
-	    int countx = app.countWords("I have four words");
-        System.out.println ("words counts: " + countx);
+	    int count = app.countWords("I have four words");
+        System.out.println ("words counts: " + count);
 	}
 }
